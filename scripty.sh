@@ -81,6 +81,6 @@ sudo apt-get update -y
 sudo apt-get upgrade -y
 sudo apt-get dist-upgrade -y
 sudo apt-get autoremove -y
-echo "Congrats, All apps are now ready, installation succesfull"
+echo "Congrats, All apps are now ready, installation successfull"
 echo "#########################################################"
 echo " "
