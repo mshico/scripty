@@ -1,4 +1,5 @@
 /**
+
 *install the most important apps you need in ubuntu/mint and fedora or any DISTRO based on with one piece of code
 
 1. Extract scripty.zip in your Downloads folder
@@ -9,6 +10,7 @@
 #ENJOY
 
 thanks to mohamed hamza for adding fedora < Mohamed Hamza "M.hamza20@icloud.com >
+
 **/
 
 
