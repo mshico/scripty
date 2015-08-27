@@ -187,7 +187,7 @@ gpgkey=http://linux.dropbox.com/fedora/rpm-public-key.asc">> /etc/yum.repos.d/dr
 dnf -y install nautilus-dropbox
 dnf -y install nautilus-open-terminal
 
-echo "Congrats, All apps are now ready, installation succesfull"
+echo "Congrats, All apps are now ready, installation successfull"
 echo "#########################################################"
 echo " "
 fi
