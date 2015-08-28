@@ -10,7 +10,7 @@ echo " #	│▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒�
 
 title="Select script"
 prompt="Pick an option:"
-options=("ubuntu" "fedora")
+options=("ubuntu/mint" "fedora")
 
 echo "$title"
 PS3="$prompt "
