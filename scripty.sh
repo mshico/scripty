@@ -10,7 +10,7 @@ echo " #	│▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒�
 
 title="Select script"
 prompt="Pick an option:"
-options=("ubuntu/mint" "fedora")
+options=("ubuntu/mint" "fedora" "web developement")
 
 echo "$title"
 PS3="$prompt "
@@ -20,6 +20,7 @@ select opt in "${options[@]}" "Quit"; do
 
     1 ) echo "You selected $opt" && sudo sh./ubunutu.sh ;  break;;
     2 ) echo "you seleceted $opt" && sudo sh ./fedora.sh ;  break;;
+    3 ) echo "you selected $opt" && sudo sh ./webdev.sh ; break;;
     
 
     $(( ${#options[@]}+1 )) ) echo "Goodbye!"; break;;
