@@ -96,7 +96,7 @@ sudo apt-get dist-upgrade -y
 sudo apt-get autoremove -y
 
 echo " "
-echo "#########################################################"
-echo "Congrats, All apps are now ready, installation succesfull"
-echo "#########################################################"
+echo "##########################################################"
+echo "Congrats, All apps are now ready, installation successfull"
+echo "##########################################################"
 echo " "
