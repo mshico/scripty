@@ -7,6 +7,7 @@ echo " #	│      m.shico.o@gmail.com & M.hamza20@icloud.com    │ "
 echo " #	│        install scripty with one piece of code      │ "
 echo " #	│▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒│ "
 
+cd ./scripts
 
 title="Select script"
 prompt="Pick an option:"
