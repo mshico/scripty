@@ -11,7 +11,7 @@ cd ./scripts
 
 title="Select script"
 prompt="Pick an option:"
-options=("ubuntu/mint" "fedora" "web developement")
+options=("ubuntu/mint" "fedora" "web developement/debian")
 
 echo "$title"
 PS3="$prompt "
