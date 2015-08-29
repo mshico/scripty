@@ -76,6 +76,7 @@ dnf -y install nano
 dnf -y install vim
 dnf -y install gimp
 dnf -y install gparted
+dnf -y install deluge
 
 echo " "
 echo "################################################################################################"
@@ -86,6 +87,8 @@ echo " "
 curl https://satya164.github.io/fedy/fedy-installer -o fedy-installer && chmod +x fedy-installer && ./fedy-installer
 
 dnf -y install java 
+dnf -y install unrar 
+dnf -y install cmatrix
 dnf -y install p7zip
 dnf -y install gstreamer-plugins-bad gstreamer-plugins-bad-free-extras gstreamer-plugins-ugly gstreamer-ffmpeg gstreamer1-libav gstreamer1-plugins-bad-free-extras gstreamer1-plugins-bad-freeworld gstreamer-plugins-base-tools gstreamer1-plugins-good-extras gstreamer1-plugins-ugly gstreamer1-plugins-bad-free gstreamer1-plugins-good gstreamer1-plugins-base gstreamer1
 
