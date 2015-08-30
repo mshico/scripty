@@ -19,8 +19,8 @@ select opt in "${options[@]}" "Quit"; do
 
     case "$REPLY" in
 
-    1 ) echo "You selected $opt" && sudo sh./ubunutu.sh ;  break;;
-    2 ) echo "you seleceted $opt" && sudo sh ./fedora.sh ;  break;;
+    1 ) echo "You selected $opt" && sudo sh ./ubunutu.sh ;  break;;
+    2 ) echo "you selected $opt" && sudo sh ./fedora.sh ;  break;;
     3 ) echo "you selected $opt" && sudo sh ./webdev.sh ; break;;
     
 
