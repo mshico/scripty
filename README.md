@@ -7,7 +7,7 @@
 3. add your .deb files to DEBs Folder
 4. Open your terminal
 5. copy this code : cd Downloads && sudo bash ./scripty.sh
-6. choose 1 for ubuntu/mint or 2 for fedora or 3 for web developement
+6. choose 1 for ubuntu/mint or 2 for fedora or 3 for web developement/debian
 7. choose 4 to quit
 
 #ENJOY
