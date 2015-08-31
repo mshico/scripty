@@ -39,6 +39,7 @@ sudo add-apt-repository ppa:jconti/recent-notifications -y
 sudo add-apt-repository ppa:linrunner/tlp-y
 sudo add-apt-repository ppa:webupd8team/java -y
 sudo add-apt-repository ppa:noobslab/apps -y
+sudo add-apt-repository ppa:noobslab/themes -y
 
 ##############
 #install Progs
@@ -65,6 +66,7 @@ wget -O - https://skia.googlesource.com/skia/+archive/cd048d18e0b81338c1a04b9749
 sudo cp adb /usr/bin/adb
 sudo chmod +x /usr/bin/adb
 sudo apt-get install numix-gtk-theme numix-icon-theme-circle -y
+sudo apt-get install flattastic-suite -y
 sudo apt-get install iftop -y
 sudo apt-get install alacarte -y
 sudo apt-get install ettercap-graphical -y
