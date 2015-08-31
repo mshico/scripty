@@ -94,7 +94,7 @@ sudo apt-get install oracle-java8-installer -y
 sudo apt-get install oracle-java8-set-default -y
 sudo apt-get install xdman -y
 sudo tlp start
-sudo dpkg -i DEBs/*.deb
+sudo dpkg -i ../DEBs/*.deb
 dconf write /org/gnome/gedit/preferences/encodings/auto-detected    "['UTF-8', 'WINDOWS-1256', 'ISO-8859-15', 'UTF-16']"
 nautilus -q
 sudo apt-get -f install -y
