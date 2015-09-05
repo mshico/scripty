@@ -53,8 +53,9 @@ echo " "
 
 sudo apt-get update -y
 sudo apt-get install git -y
+sudo apt-get install build-essential libgtop2-dev libgtk-3-dev libappindicator3-dev git-core -y
 git clone git://github.com/mshico/indicator-netspeed.git && sudo chmod 777 indicator-netspeed && cd indicator-netspeed && sudo make && sudo make install
-sudo apt-get install unity-tweak-tool -y
+#sudo apt-get install unity-tweak-tool -y
 sudo apt-get install gnome-tweak-tool -y
 sudo apt-get install dconf-editor -y
 sudo apt-get install gconf-editor -y
@@ -83,8 +84,7 @@ sudo apt-get install kismet -y
 sudo apt-get install smplayer -y
 sudo apt-get install bomi -y
 sudo apt-get install vlc -y
-sudo apt-get install netbeans -y
-sudo apt-get install build-essential libgtop2-dev libgtk-3-dev libappindicator3-dev git-core -y
+#sudo apt-get install netbeans -y
 sudo apt-get install gufw -y
 sudo apt-get install indicator-multiload -y
 sudo apt-get install virtualbox -y
@@ -105,6 +105,8 @@ sudo apt-get upgrade -y
 sudo apt-get dist-upgrade -y
 sudo apt-get autoremove -y
 
+echo " "
+echo "if you are using Ubuntu Unity please write this in terminal : sudo apt-get install unity-tweak-tool -y"
 echo " "
 echo "##########################################################"
 echo "Congrats, All apps are now ready, installation successfull"
