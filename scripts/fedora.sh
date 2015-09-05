@@ -18,8 +18,7 @@ echo "i will update your DISTRO"
 echo "#########################"
 echo " "
 
-sudo dnf -y update
-
+dnf -y update
 ##########
 #add Repos
 ##########
