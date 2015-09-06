@@ -54,25 +54,11 @@ echo " "
 sudo apt-get update -y
 sudo apt-get install git -y
 sudo apt-get install build-essential libgtop2-dev libgtk-3-dev libappindicator3-dev git-core -y
-git clone git://github.com/mshico/indicator-netspeed.git && sudo chmod 777 indicator-netspeed && cd indicator-netspeed && sudo make && sudo make install
-#sudo apt-get install unity-tweak-tool -y
-sudo apt-get install gnome-tweak-tool -y
-sudo apt-get install dconf-editor -y
-sudo apt-get install gconf-editor -y
-sudo apt-get install wifite -y
 sudo apt-get install clementine -y
-sudo apt-get install android-tools-adb -y
-sudo apt-get install android-tools-adb android-tools-fastboot -y
-wget -O - https://skia.googlesource.com/skia/+archive/cd048d18e0b81338c1a04b9749a00444597df394/platform_tools/android/bin/linux.tar.gz | tar -zxvf - adb
-sudo cp adb /usr/bin/adb
-sudo chmod +x /usr/bin/adb
 sudo apt-get install numix-gtk-theme numix-icon-theme-circle -y
 sudo apt-get install flattastic-suite -y
-sudo apt-get install iftop -y
 sudo apt-get install alacarte -y
-sudo apt-get install ettercap-graphical -y
-sudo apt-get install wireshark -y
-sudo apt-get install p7zip -y
+sudo apt-get install p7zip-full -y
 sudo apt-get install gksu -y
 sudo apt-get install shutter -y
 sudo apt-get install gimp -y
@@ -80,11 +66,9 @@ sudo apt-get install inkscape -y
 sudo apt-get install nautilus-open-terminal -y
 sudo apt-get install aptitude -y
 sudo apt-get install gparted -y
-sudo apt-get install kismet -y
 sudo apt-get install smplayer -y
 sudo apt-get install bomi -y
 sudo apt-get install vlc -y
-#sudo apt-get install netbeans -y
 sudo apt-get install gufw -y
 sudo apt-get install indicator-multiload -y
 sudo apt-get install virtualbox -y
@@ -107,6 +91,7 @@ sudo apt-get autoremove -y
 
 echo " "
 echo "if you are using Ubuntu Unity please write this in terminal : sudo apt-get install unity-tweak-tool -y"
+echo "if you are using Ubuntu Gnome please write this in terminal : sudo apt-get install gnome-tweak-tool -y"
 echo " "
 echo "##########################################################"
 echo "Congrats, All apps are now ready, installation successfull"
