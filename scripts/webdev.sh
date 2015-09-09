@@ -74,6 +74,22 @@ echo " "
 
 sudo service apache2 restart
 
+
+
+echo " "
+echo "########################"
+echo "INSTALL CURL & COMPOSER"
+echo "########################"
+echo " "
+
+
+sudo apt-get install curl -y
+
+curl -sS https://getcomposer.org/installer | php
+
+sudo mv composer.phar /usr/local/bin/composer
+
+
 echo " "
 echo " #	│▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒│ "
 echo " #	│                                                    │ "
