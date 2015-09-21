@@ -36,7 +36,7 @@ sudo add-apt-repository ppa:numix/ppa -y
 sudo add-apt-repository ppa:darklin20/bomi -y
 sudo add-apt-repository ppa:tsbarnes/indicator-keylock -y
 sudo add-apt-repository ppa:jconti/recent-notifications -y
-sudo add-apt-repository ppa:linrunner/tlp-y
+sudo add-apt-repository ppa:linrunner/tlp -y
 sudo add-apt-repository ppa:webupd8team/java -y
 sudo add-apt-repository ppa:noobslab/apps -y
 sudo add-apt-repository ppa:noobslab/themes -y
@@ -78,7 +78,6 @@ sudo apt-get install ubuntu-restricted-extras -y
 sudo apt-get install tlp tlp-rdw -y
 sudo apt-get install oracle-java8-installer -y
 sudo apt-get install oracle-java8-set-default -y
-sudo apt-get install xdman -y
 sudo apt-get install python-dev -y
 sudo apt-get install python-pip -y
 sudo pip install udemy-dl -y
