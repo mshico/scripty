@@ -78,9 +78,6 @@ sudo apt-get install ubuntu-restricted-extras -y
 sudo apt-get install tlp tlp-rdw -y
 sudo apt-get install oracle-java8-installer -y
 sudo apt-get install oracle-java8-set-default -y
-sudo apt-get install python-dev -y
-sudo apt-get install python-pip -y
-sudo pip install udemy-dl -y
 sudo tlp start
 sudo dpkg -i ../DEBs/*.deb
 dconf write /org/gnome/gedit/preferences/encodings/auto-detected    "['UTF-8', 'WINDOWS-1256', 'ISO-8859-15', 'UTF-16']"
