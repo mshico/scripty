@@ -11,7 +11,7 @@ cd ./scripts
 
 title="Select script"
 prompt="Pick an option:"
-options=("ubuntu/mint" "fedora" "web developement/debian")
+options=("ubuntu/mint" "fedora" "debian" "web developement/debian")
 
 echo "$title"
 PS3="$prompt "
@@ -19,8 +19,9 @@ select opt in "${options[@]}" "Quit"; do
 
     case "$REPLY" in
 
-    1 ) echo "You selected $opt" && sudo sh ./ubuntu.sh ;  break;;
-    2 ) echo "you selected $opt" && sudo sh ./fedora.sh ;  break;;
+    1 ) echo "You selected $opt" && sudo sh ./ubuntu.sh ; break;;
+    2 ) echo "you selected $opt" && sudo sh ./fedora.sh ; break;;
+    3 ) echo "you selected $opt" && sudo sh ./debian.sh ; break;;
     3 ) echo "you selected $opt" && sudo sh ./webdev.sh ; break;;
     
 
